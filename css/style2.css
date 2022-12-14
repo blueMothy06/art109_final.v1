@@ -1,0 +1,101 @@
+/* @font-face {
+    font-family: Varela Round;
+    src: url(VarelaRound-Regular.ttf);
+  } */
+
+@font-face {
+  font-family: ABeeZee;
+  src: url(ABeeZee-Regular.ttf);
+}
+
+@import url("https://fonts.googleapis.com/css?family=Varela Round");
+
+html {
+  /* margin-left: 10%;
+    margin-right: 10%; */
+  font-family: 'Varela Round', sans-serif;
+  width: auto;
+  color: #d3ecf1;
+  background-image: linear-gradient(180deg, #080633, #150b81);
+  background-attachment: fixed;
+}
+
+h1 {
+
+  font-size: 50px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+p {
+  font-size: 18px;
+  line-height: normal;
+  margin-right: 10%;
+  margin-left: 10%;
+  line-height: 1.4;
+}
+
+a {
+  color: #4cd4f2;
+  text-decoration: none;
+}
+
+main {
+  min-height: 300px;
+}
+
+footer {
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 20px;
+  padding-top: 5%;
+  margin-bottom: 100px;
+}
+
+a:hover {
+  color: #d62b90;
+}
+
+
+ul {
+  list-style: none;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  margin-top: 0px;
+}
+
+li {
+  list-style-image: url(./assets/bullet.webp);
+  margin-left: 10%;
+  font-size: 18px;
+}
+
+::selection {
+  color: black;
+  background: #4cd4f2;
+}
+
+.active {
+  color: #4cd4f2;
+}
+
+.passage button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 20%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  max-width: 100%;
+  width: 100%;
+}
+
+/**mobile friendly*/
+@media screen and (max-width: 800px) {}
